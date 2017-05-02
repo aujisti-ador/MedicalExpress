@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\MedicalExpress\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7535576a4633f914416bfce570f2e90758db4be">
+        <dex dex="D:\AndroidProjects\MedicalExpress\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e5182fdf268a16c040d22dca4078ceb0c4bf9177\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidProjects\MedicalExpress\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="D:\AndroidProjects\MedicalExpress\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e4cd4c829ecacef772616e9f5ce19e963c0f1d41\classes.dex" />
+    </item>
+
+</items>
