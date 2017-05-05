@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_doctor"
+        android:icon="@drawable/ic_action_doctor"
+        android:title="doctor"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        app:showAsAction="withText"
+        />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="Contact Us"
+        app:showAsAction="withText"
+        />
+
+</menu>
