@@ -6,8 +6,8 @@
     android:layout_height="wrap_content"
     android:background="@color/colorPrimary"
     android:fitsSystemWindows="true"
-    android:elevation="5dp"
-    android:textSize="12sp"
+    android:elevation="4dp"
+    android:textSize="10sp"
     android:id="@+id/toolBar"
     app:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
     >
