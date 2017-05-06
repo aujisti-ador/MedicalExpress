@@ -18,6 +18,7 @@
     <item
         android:id="@+id/action_share"
         android:title="Share"
+        android:icon="@drawable/ic_action_share"
         app:showAsAction="withText"
         />
 
