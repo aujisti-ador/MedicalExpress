@@ -10,6 +10,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import static com.ador.medicalexpress.R.drawable.ambulance;
+import static com.ador.medicalexpress.R.drawable.blood;
+import static com.ador.medicalexpress.R.drawable.hospital;
+import static com.ador.medicalexpress.R.drawable.location;
+
 public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     TabLayout tabLayout;
@@ -17,17 +22,17 @@ public class MainActivity extends AppCompatActivity {
     ViewPagerAdapter viewPagerAdapter;
 
     private int[] tabIcons = {
-            R.drawable.hospital,
-            R.drawable.map,
-            R.drawable.ambulance,
-            R.drawable.blood
+            hospital,
+            location,
+            ambulance,
+            blood
     };
 
     String[] tabsTitles = {
             "Hospital",
             "Nearby",
             "Ambulance",
-            "blood"
+            "Blood"
     } ;
     //Icons
 
