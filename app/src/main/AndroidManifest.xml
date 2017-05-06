@@ -13,12 +13,20 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.deafault" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".BloodViewActivity" />
         <activity android:name=".DoctorViewActivity" />
-        <activity android:name=".HospitalInfoActivity"></activity>
+        <activity android:name=".HospitalInfoActivity" />
     </application>
 
 </manifest>
