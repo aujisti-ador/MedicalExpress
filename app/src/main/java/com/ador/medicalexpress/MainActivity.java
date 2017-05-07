@@ -1,5 +1,6 @@
 package com.ador.medicalexpress;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -95,6 +96,11 @@ public class MainActivity extends AppCompatActivity {
         else if (res_id==R.id.action_share)
         {
             Toast.makeText(this, "Share!", Toast.LENGTH_SHORT).show();
+        }
+        else if (res_id==R.id.action_doctor)
+        {
+            Intent intent = new Intent(this, DoctorViewActivity.class);
+            startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }
