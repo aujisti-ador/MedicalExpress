@@ -30,7 +30,8 @@ import java.util.List;
 
 public class BloodRequestActivity extends AppCompatActivity {
 
-    private static final String URL_DATA  = "http://192.168.0.102/bloodrequest/dbconnect.php";
+    private static final String URL_DATA  = "https://fazlerabbiador.000webhostapp.com/BloodRequest/dbConnect.php";
+    //private static final String URL_DATA  = "http://192.168.0.102/bloodrequest/dbconnect.php";
 
     Toolbar toolbar;
     private RecyclerView recyclerView;
