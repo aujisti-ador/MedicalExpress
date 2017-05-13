@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
 
         setupTabIcons();
+
     }
 
 
@@ -99,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else if (res_id==R.id.action_doctor)
         {
-            Intent intent = new Intent(this, DoctorViewActivity.class);
+            Intent intent = new Intent(this, BloodRequestActivity.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);

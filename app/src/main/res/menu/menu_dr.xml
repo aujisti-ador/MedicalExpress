@@ -3,18 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-
-    <item
-        android:id="@+id/action_searchdoctor"
-        android:icon="@drawable/ic_search_black_24dp"
-        android:title="doctor"
-        app:showAsAction="always"
-        />
-
     <item
         android:id="@+id/action_adddoctor"
-        android:icon="@drawable/ic_action_user"
-        android:title="doctor"
+        android:icon="@drawable/blood"
+        android:title="Blood Request"
         app:showAsAction="always"
         />
 
