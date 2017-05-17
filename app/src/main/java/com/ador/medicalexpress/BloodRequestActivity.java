@@ -2,6 +2,7 @@ package com.ador.medicalexpress;
 
 import android.app.LauncherActivity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -121,8 +122,17 @@ public class BloodRequestActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         if (item.getItemId()==android.R.id.home)
+        {
             finish();
+        }
+        else if (item.getItemId()==R.id.bloodRequest)
+        {
+            Intent intent = new Intent(this, RequestBloodActivity.class);
+            startActivity(intent);
+        }
+
         return super.onOptionsItemSelected(item);
     }
 

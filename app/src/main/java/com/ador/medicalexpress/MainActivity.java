@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int res_id = item.getItemId();
+
         if (res_id==R.id.action_about)
         {
             Toast.makeText(this, "About Us!", Toast.LENGTH_SHORT).show();

@@ -4,10 +4,9 @@
 
 
     <item
-        android:id="@+id/action_adddoctor"
-        android:icon="@drawable/blood"
-        android:title="Blood Request"
-        app:showAsAction="always"
+        android:id="@+id/bloodRequest"
+        android:title="Request For Blood"
+        app:showAsAction="collapseActionView"
         />
 
 </menu>
