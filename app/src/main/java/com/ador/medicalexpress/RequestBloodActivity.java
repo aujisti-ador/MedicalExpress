@@ -6,43 +6,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import static com.ador.medicalexpress.R.id.add;
+
 public class RequestBloodActivity extends AppCompatActivity {
 
-    EditText name,bg,place,phone,date;
+    EditText ETname,ETbg,ETplace,ETphone,ETdate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_request_blood);
-        name = (EditText) findViewById(R.id.name);
-        bg = (EditText) findViewById(R.id.bg);
-        place = (EditText) findViewById(R.id.place);
-        phone = (EditText) findViewById(R.id.phone);
-        date = (EditText) findViewById(R.id.date);
 
-
-    }
-
-    public void insert(View view) {
-    }
-
-    protected void insertToDatabase(String name, String bg,String place, String phone,String date){
-
-        class SendPostReqAsyncTask extends AsyncTask<String, Void, String> {
-            @Override
-            protected String doInBackground(String... params) {
-
-                return "success";
-            }
-
-            @Override
-            protected void onPostExecute(String result) {
-                super.onPostExecute(result);
-
-            }
-        }
-        SendPostReqAsyncTask sendPostReqAsyncTask = new SendPostReqAsyncTask();
-        sendPostReqAsyncTask.execute(name,bg,place,phone,date);
+        ETname = (EditText) findViewById(R.id.name);
+        ETbg = (EditText) findViewById(R.id.bg);
+        ETplace = (EditText) findViewById(R.id.place);
+        ETphone = (EditText) findViewById(R.id.phone);
+        ETdate = (EditText) findViewById(R.id.date);
 
     }
 }
